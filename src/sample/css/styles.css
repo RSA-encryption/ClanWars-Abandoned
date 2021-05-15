@@ -1,0 +1,60 @@
+.background{
+	-fx-background-color:  #242526;
+}
+.logo{
+	-fx-image:  \@@/images/tib.jpg;
+}
+.scrollPane{
+	-fx-control-inner-background: transparent;
+	-fx-background-color: transparent;
+	-fx-border-color: transparent;
+	-fx-background: transparent;
+}
+.vboxPaneFirst{
+	-fx-background-color:  #d56529;
+	-fx-border-color: white;
+	-fx-border-width: 1 0 1 0;
+	-fx-border-radius:  6px 6px 0 0;
+	-fx-background-radius:  6px 6px 0 0;
+}
+.vboxPane{
+	-fx-background-color:  #d56529;
+	-fx-border-color: white;
+	-fx-border-width: 0 0 1 0;
+}
+.vboxPaneLast{
+	-fx-background-color:  #d56529;
+	-fx-border-color: white;
+	-fx-border-width: 0 0 1 0;
+	-fx-border-radius:  0 0 6px 6px;
+	-fx-background-radius:  0 0 6px 6px;
+}
+.expiration{
+	-fx-background-radius: 2px;
+}
+.expired{
+	-fx-background-color: #00ce68;
+}
+.notexpired{
+	-fx-background-color: red;
+}
+.paneLabels{
+	-fx-font-family: "Agency FB";
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+	-fx-alignment:center;
+	-fx-text-alignment: center;
+}
+.grid{
+	-fx-background-color:  #d56529;
+}
+.edit{
+	-fx-background-color: #ffcb00;
+	-fx-font-size: 12px;
+	-fx-font-weight: bold;
+}
+.delete{
+	-fx-background-color: red;
+	-fx-font-size: 12px;
+	-fx-font-weight: bold;
+}
